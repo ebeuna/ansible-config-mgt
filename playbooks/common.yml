@@ -26,4 +26,4 @@
       ansible.builtin.file:
         path: /home/ubuntu/ngine
         state: directory
-        #mode: '0644'
+        mode: '0644'
