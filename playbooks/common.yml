@@ -21,3 +21,9 @@
       apt:
         name: wireshark
         state: latest
+
+    - name: change file ownership, group and permission: 
+      ansible.builtin.file:
+        path: /home/ubuntu/ngine
+        state: directory
+        #mode: '0644'
